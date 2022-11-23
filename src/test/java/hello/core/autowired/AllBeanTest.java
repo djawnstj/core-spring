@@ -31,14 +31,6 @@ public class AllBeanTest {
         int rateDiscountPrice = discountService.discount(member, 20000, "rateDiscountPolicy");
         assertThat(rateDiscountPrice).isEqualTo(2000);
 
-        for (int i = 0; i < 10; i++) {
-
-        }
-
-        for (int i = 0; i < 100; i++) {
-
-        }
-
     }
 
     static class DiscountService {
